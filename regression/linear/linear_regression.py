@@ -4,6 +4,7 @@ from regression.model.linear_regression_data import LinearRegressionData
 
 class LinearRegression:
     def __init__(self):
+        # y = a * x + b
         self.a = None
         self.b = None
 
